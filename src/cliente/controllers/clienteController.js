@@ -9,7 +9,8 @@ const getAllClientes = async (request, h) => {
 const getClienteById = async (request, h) => {
     const clienteId = request.params.id;
     const cliente = await clienteModel.getClienteById(clienteId);
-    return cliente || {};
+    //console.log("23",cliente);
+    return cliente;
 };
 
 const createCliente = async (request, h) => {

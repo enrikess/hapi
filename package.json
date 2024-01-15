@@ -12,6 +12,7 @@
   "dependencies": {
     "@hapi/h2o2": "^10.0.4",
     "@hapi/hapi": "^21.3.2",
+    "amqplib": "^0.10.3",
     "axios": "^1.6.5",
     "hapi-cors": "^1.0.3",
     "joi": "^17.11.0",

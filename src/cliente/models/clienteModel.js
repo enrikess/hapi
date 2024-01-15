@@ -129,8 +129,8 @@ const consultarParametroEnvioCorreos = async () => {
     }
 };
 
-prueba = async () => {
+crearRedisParametros = async () => {
     await registrarParametrosEnRedis();
 }
-prueba()
+crearRedisParametros()
 module.exports = { getAllClientes, getClienteById, createCliente, updateCliente, deleteCliente };
